@@ -27,7 +27,7 @@ namespace CBDDLPTexturizer
             string version = FileVersionInfo.GetVersionInfo(Assembly.GetExecutingAssembly().Location).FileVersion;
 
             Console.WriteLine("CBDDLP Texturizer v" + version);
-            Console.WriteLine("Applies a specified pixel pattern the top layers of a *.cbddlp or *.photon file to add texture to 3D prints.");
+            Console.WriteLine("Applies a specified pixel pattern to the top layers of a *.cbddlp or *.photon file to add texture to 3D prints.");
             Console.WriteLine("");
             Console.WriteLine("Usage: CBDDLPTexturizer.exe <input file> <pattern png> <number of layers to modify>");
         }
